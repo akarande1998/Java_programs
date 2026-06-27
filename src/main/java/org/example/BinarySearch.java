@@ -3,7 +3,7 @@ package org.example;
 public class BinarySearch {
     public static int binarySearch(int[] test,int n,int value){
      int low =0;
-     int high=n;
+     int high12=n;
 
      while(low<=high) {
          int mid = low + (high - low) / 2;
